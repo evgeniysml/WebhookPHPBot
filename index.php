@@ -27,8 +27,8 @@
     <div class="row cb-slideshow-text-container ">
         <div class="tm-content col-xl-6 col-sm-8 col-xs-8 ml-auto section">
             <header class="mb-5"><h1>Поделись чем-то важным...</h1></header>
-            <P class="mb-5">Введи текст сообщения, который будет отправлен всем пользователям, подписанным на
-                @WebhookPHPBot в Telegram</P>
+            <p class="mb-5">Введи текст сообщения, который будет отправлен всем пользователям, подписанным на
+                @WebhookPHPBot в Telegram</p>
             <form action="#" method="get" class="subscribe-form">
                 <div class="row form-section">
                     <div class="col-md-7 col-sm-7 col-xs-7">
