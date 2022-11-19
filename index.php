@@ -4,9 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>GoBot - Admin panel</title>
+    <title>VGKNBot - Admin panel</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
-    <!-- Google web font "Open Sans" -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/demo.css"/>
@@ -28,7 +27,7 @@
         <div class="tm-content col-xl-6 col-sm-8 col-xs-8 ml-auto section">
             <header class="mb-5"><h1>Поделитесь чем-то важным...</h1></header>
             <P class="mb-5">Введите текст сообщения, который будет отправлен всем пользователям, подписанным на
-                <a href="https://t.me/GoBot">@GoBot</a> в Telegram</P>
+                <a href="https://t.me/VGKNBot">@VGKNBot</a> в Telegram</P>
             <form action="<?php
 
 if (isset ($_POST['text'])) {
@@ -80,7 +79,7 @@ if (isset ($_POST['text'])) {
         </div>
     </div>
     <div class="footer-link">
-        <p>Copyright © 2022 @GoBot - Финальный проект курса Backend-разработка-Kolesa Upgrade
+        <p>Copyright © 2022 @VGKNBot - Финальный проект курса Backend-разработка-Kolesa Upgrade
     </div>
 </div>
 </body>
