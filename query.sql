@@ -14,3 +14,8 @@ CREATE TABLE messages (
         ON UPDATE CASCADE
         ON DELETE CASCADE
 );
+
+CREATE TABLE sent_of_everyone (
+    id int PRIMARY KEY AUTO_INCREMENT,
+    message text
+);
