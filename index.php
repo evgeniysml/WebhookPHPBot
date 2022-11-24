@@ -1,6 +1,7 @@
 <?php
 
 $message = $_POST['message'];
+$users = $_GET['users'];
 
 if (!empty($message)) {
     require_once(__DIR__ . '/connect_db.php');
@@ -39,7 +40,7 @@ if (!empty($message)) {
 </head>
 <body>
 <div class="container">
-    <h3>Панель управления ботом @WebhookPHPBot</h3>
+    <h3>Панель управления ботом <a href="https://t.me/WebhookPHPBot" target="_blank">@WebhookPHPBot</a></h3>
     <form action="index.php" method="post">
         <input type="text" name="message" id="message" placeholder="Введите текст сообщения..." class="form-control">
         <button type="submit" name="sendMessage" class="btn btn-success">Отправить всем</button>
@@ -51,7 +52,18 @@ if (!empty($message)) {
         }
         ?>
     </h6>
+    <a href="index.php?users=yes"><button class="btn btn-success">Список пользователей</button></a>
+    <a href="index.php?users=no"><button class="btn btn-success">Список отправленных сообщений</button></a>
+    <?php
 
+    if ($users == 'yes') {
+        echo 'Вывести пользователей';
+    }
+
+    if ($users == 'no') {
+        echo 'Вывести сообщения';
+    }
+    ?>
 </div>
 </body>
 </html>
